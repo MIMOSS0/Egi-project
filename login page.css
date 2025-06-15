@@ -1,0 +1,120 @@
+.egiimg{
+    
+ height: 50px ;  
+  width: 150px ;  
+  
+}
+
+body{
+    
+    background-image:linear-gradient(#ffffff,#338c98,#1e535a,#000000);
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Arial, sans-serif;
+background-attachment: fixed;}
+
+
+.img2{
+  height: 30px;  
+  width: 150px ;
+    
+}
+
+
+input {
+  border: 2px solid #ccc;
+  border-radius: 10px; 
+  font-size: 14px; 
+  padding: 5px;
+  background-color: #e8e8e8;
+  color: #000000;
+}
+
+
+
+
+input:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  background-color: #ffffff;
+  color: #0042ff;
+  border-color: #007bff;
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 14px;
+  opacity: 1; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+  background-color:#47a1d5;
+  border: none; 
+  color: white; 
+  padding: 10px 20px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 12px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 12px;
+  transition: background-color 0.3s ease,      transform 0.1s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+
+  
+
+
+}
+
+button:hover {
+  background-color: #45a049;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px rgba(81, 203, 238, 0.8);
+}
+
+button:active {
+  background-color: #2f7135;
+  box-shadow: 0 5px #00000094;
+  transform: translateY(4px);
+}
+
+
+
+
+
+.error-message {
+      color: red;
+      display:none;
+      margin-top: 10px;
+      
+}
+
+
+
+ ز
