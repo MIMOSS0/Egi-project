@@ -1,0 +1,169 @@
+.custom-bg{background-image:linear-gradient(#ffffff,#338c98,#1e535a);
+background-size: cover;
+background-attachment: fixed;
+font-family: 'Amiri', serif;
+ direction: rtl;}
+
+
+
+       
+      
+ h3{
+     
+     font-family: serif;
+     }
+    
+
+
+
+   body {
+            font-family: 'Amiri', serif;
+            background-color: #f8f9fa;
+            direction: rtl;
+        }
+        .student-header {
+            text-align: center;
+            padding: 40px;
+            background-image:linear-gradient(#00a302bb,#004901);
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .student-header img {
+            border-radius: 50%;
+            width: 120px;
+            height: 80px;
+            
+        }
+        .student-info, .course-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        .course-card .card-header {
+            background-color: #007bff;
+            color: white;
+            border-radius: 8px 8px 0 0;
+        }
+        
+        
+        
+       .dropdown-item {
+            display: block;
+            border: 1px solid transparent; 
+        }
+        .dropdown-menu {
+            padding: 0;
+        }
+        .dropdown-item .btn-outline {
+            margin: 0;
+            border: 1px solid #dc3545;
+            border-radius: 0.25rem;
+        }
+        .dropdown-item.active {
+            background-color: #dc3545;
+            color: white;
+        }
+       
+      
+     
+     .btn{
+        width: 250px ;
+        
+     }
+     
+     .btns1{
+  background-color: #00a87f;
+  border: none; 
+  color: black; 
+  padding: 10px 20px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 12px;
+  transition: background-image 0.3s ease,      transform 0.1s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+     }
+    
+   .btns2 {
+  background-color: #00a87f;
+  border: none; 
+  color: black; 
+  padding: 10px 20px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 12px;
+  transition: background-image 0.3s ease,      transform 0.1s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btns2:hover {
+  background-color:#336534;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  color: white;
+
+}
+
+.btns2:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px rgba(81, 203, 238, 0.8);
+}
+
+btns2:active {
+  background-color: #004f49;
+  box-shadow: 0 5px #00000094;
+  transform: translateY(20px);
+}
+
+.btns1:hover {
+  background-color:#336534;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  color: white;
+
+}
+
+.btns1:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px rgba(81, 203, 238, 0.8);
+}
+
+btns1:active {
+  background-color: #004f49;
+  box-shadow: 0 5px #00000094;
+  transform: translateY(20px);
+}
+
+.card-header {
+    
+   background-image:linear-gradient(#00a302bb,#004901); 
+}
+
+
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+
+alert{background-color: #ca1121;}
